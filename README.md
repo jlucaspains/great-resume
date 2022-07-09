@@ -1,5 +1,5 @@
-# Almeida CV Theme
-Theme to build a customizeable printable HTML/CSS CV.
+# Great Resume theme
+Hugo resume theme based on [almeida-cv](https://github.com/ineesalmeida/almeida-cv) to build a customizeable printable HTML/CSS CV. This customization adds Education as a right side option and 
 
 ![Screenshot](images/screenshot-full.png)
 
@@ -19,16 +19,16 @@ If badges and other elements with background don't render correctly, remember to
 
 # Usage
 ## Install Hugo (extended)
-To use `almeida-cv` theme you need to install Hugo Extended by following https://gohugo.io/getting-started/installing/.
+To use `great-resume` theme you need to install Hugo Extended by following https://gohugo.io/getting-started/installing/.
 
 ## Create your personal website
 ```
 hugo new site <your website's name>
 cd <your website's name>
 git init
-git submodule add https://github.com/ineesalmeida/almeida-cv.git themes/almeida-cv
+git submodule add https://github.com/jlucaspains/great-resume.git themes/great-resume
 ```
-Replace the files in your site root's directory with the ones in `themes/almeida-cv/exampleSite`.
+Replace the files in your site root's directory with the ones in `themes/great-resume/exampleSite`.
 
 ## Start Hugo in development mode
 ```
