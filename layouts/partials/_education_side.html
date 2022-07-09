@@ -1,0 +1,17 @@
+{{ if .EducationRight }}
+<div id="education" class="sideSection">
+    <div class="sideSection__heading">
+        <h2 class="sideSection__title">{{ i18n "education" }}</h2>
+    </div>
+    <div class="sideSection__content">
+        {{ range .EducationRight }}
+            <div class="education__item">
+                <h4 class="education__title">{{ .Course | safeHTML }}</h3>
+                <div class="education__place">{{ .Place | safeHTML }}</div>
+                <div class="education__date">{{ .Date | safeHTML }}</div>
+                <div class="education__description">{{ .Details | safeHTML }}</div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
