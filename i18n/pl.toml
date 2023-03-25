@@ -24,3 +24,6 @@ other = "Zainteresowania"
 
 [projects]
 other = "Ostatnie Projekty"
+
+[certifications]
+other = "Certyfikaty"

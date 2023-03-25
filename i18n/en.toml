@@ -24,3 +24,6 @@ other = "Interests"
 
 [projects]
 other = "Recent Projects"
+
+[certifications]
+other = "Certifications"
